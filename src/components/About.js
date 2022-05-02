@@ -11,7 +11,7 @@ export default function About() {
                 I love to build amazing apps.
             </h1>
             <p className="mb-8 leading-relaxed">
-                Fullstack developer commited to provide maximum value to clients and build quality software. I strive to design solutions that improve the quality of life of others.
+                Fullstack developer commited to provide maximum value to clients and build quality software. I strive to design solutions that improve the quality of life for others.
                 Skilled working with a wide range of frontend and backend technologies.
             </p>
             <div className="flex justify-center">
