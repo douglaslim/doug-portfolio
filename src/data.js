@@ -1,11 +1,11 @@
 export const projects = [
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "Wave Portal",
+      subtitle: "React and Solidity",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-3.gif",
-      link: "https://jsbootcamp.com",
+        "Starter project to dip my toes in the blockchain space",
+      image: "./projects/wave_portal.gif",
+      link: "https://waveportal-starter-project.tau-sangsang.repl.co/",
     },
 ];
 
@@ -21,6 +21,8 @@ export const skills = [
   "MySQL",
   "Mongodb",
   "Hibernate",
+  "Docker",
+  "Kubernetes",
   "Jest",
   "Cypress",
   "Kafka",
@@ -28,10 +30,5 @@ export const skills = [
 ];
 
 export const testimonials = [
-  {
-    quote: "",
-    image: "",
-    name: "Ipsum",
-    company: "Test",
-  },
+  
 ];
