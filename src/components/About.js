@@ -1,3 +1,5 @@
+import { MailIcon } from "@heroicons/react/solid";
+
 export default function About() {
     return (
     <section id="about">

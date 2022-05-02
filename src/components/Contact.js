@@ -1,4 +1,5 @@
 import React from "react";
+import { ImLinkedin, ImFacebook2, ImTwitter, ImGithub } from "react-icons/im";
 
 export default function Contact() {
     const [name, setName] = React.useState("");
@@ -70,8 +71,34 @@ export default function Contact() {
                 name="contact"
                 className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
                 <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-                    Hire Me
+                    Contact Me
                 </h2>
+                <div className="flex my-4">
+                <a
+                target="_blank"
+                href="https://my.linkedin.com/in/lim-tau-sang"
+                className="flex-1">
+                    <ImLinkedin size={28} />
+                </a>
+                <a
+                target="_blank"
+                href="https://www.facebook.com/lim.tausang"
+                className="flex-1">
+                    <ImFacebook2 size={28} />
+                </a>
+                <a
+                target="_blank"
+                href="https://twitter.com/DouglasLim9"
+                className="flex-1">
+                    <ImTwitter size={28}  />
+                </a>
+                <a
+                target="_blank"
+                href="https://github.com/douglaslim"
+                className="flex-1">
+                     <ImGithub size={28} />
+                </a>    
+                </div>
                 <p className="leading-relaxed mb-5">
                     Interested to collaborate together? Please drop me a message and I will get back to you as soon as possible!
                 </p>
