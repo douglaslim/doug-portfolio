@@ -13,9 +13,10 @@ export const skills = [
   "Golang",
   "Java",
   "Spring Boot",
-  "Spring Batch",
+  "Solidity",
   "Vue.js",
   "Angular 8",
+  "React",
   "Microsoft Azure",
   "Git",
   "MySQL",
@@ -23,8 +24,6 @@ export const skills = [
   "Hibernate",
   "Docker",
   "Kubernetes",
-  "Jest",
-  "Cypress",
   "Kafka",
   "Microservice"
 ];
