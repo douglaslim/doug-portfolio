@@ -7,6 +7,13 @@ export const projects = [
       image: "./projects/wave_portal.gif",
       link: "https://waveportal-starter-project.tau-sangsang.repl.co/",
     },
+    {
+      title: "Sad Named Service",
+      subtitle: "React and Solidity",
+      description: "Domain service built on Polygon L2",
+      image: "./projects/sns.png",
+      link: "https://sns-ui.vercel.app/",
+    },
 ];
 
 export const skills = [
